@@ -1,0 +1,23 @@
+{
+  "name": "bddtestautomation",
+  "version": "1.0.0",
+  "description": "test automation with cucumber js framework",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^7.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "cucumber-pretty": "^6.0.1",
+    "cucumberjs-allure-reporter": "^1.0.3",
+    "protractor": "^7.0.0"
+  },
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor-cucumber-framework": "^9.0.0"
+  }
+}
